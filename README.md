@@ -28,28 +28,11 @@ The tool reads and writes excel files with extension of "xlsx" and does not supp
 
 Please ensure that your computer meets or exceeds the following system requirements before installing
 the SST application.
-
-```
-Available disk space 200
-MB
-```
-```
-Available disk space 1 MB
-```
-```
-Operating system Windows, Linux, Mac
-Environment Variables Python v3.5+.
-Pip list:-
-et-xmlfile==1.1.
-numpy==1.19.
-openpyxl==3.0.
-pandas==1.1.
-python-dateutil==2.8.
-pytz==2021.
-six==1.16.
-xlrd==2.0.
-XlsxWriter==3.0.
-```
+|Name|description|
+|---|---|
+|Available disk space |1 MB|
+|Operating system| Windows, Linux, Mac|
+|Environment Variables|<br>**Python v3.5+**. <br>**Pip list**:- <br> et-xmlfile==1.1.<br>  numpy==1.19.<br> openpyxl==3.0.<br> pandas==1.1.<br> python-dateutil==2.8.<br> pytz==2021.<br> six==1.16.<br> xlrd==2.0.<br> XlsxWriter==3.0.|
 
 ### Usage
 
