@@ -163,8 +163,9 @@ that stack.
 
 For now the too supports only 2 shuffling options:
 
-1 - Stack, Section per sheet
-2 - Stack per sheet
+1- **Stack, Section** per sheet
+
+2- **Stack** per sheet
 
 
 ## Table of commands
