@@ -10,5 +10,5 @@ students_list=[]
 stacks_list=[]
 shuffled_sections_dict={}
 stacks_shuffled=[]
-temp_list = []
-temp_list2 = []
+extracted_column_1 = []
+extracted_column_2 = []

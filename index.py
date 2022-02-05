@@ -41,11 +41,11 @@ class Students:
         return one list of tuples merged out of two lists
         '''
         for key in current_dict[f"{colname1}"]:
-            SCon.temp_list.append(current_dict[f"{colname1}"][key])
+            SCon.extracted_column_1.append(current_dict[f"{colname1}"][key])
         for key in current_dict[f"{colname2}"]:
-            SCon.temp_list2.append(current_dict[f"{colname2}"][key])
+            SCon.extracted_column_2.append(current_dict[f"{colname2}"][key])
         for i in range(len(current_dict["Academy ID"])):
-            SCon.students_list.append(tuple((SCon.temp_list[i], SCon.temp_list2[i])))
+            SCon.students_list.append(tuple((SCon.extracted_column_1[i], SCon.extracted_column_2[i])))
         return SCon.students_list
     
     def remove_duplicates(section, current_list):
